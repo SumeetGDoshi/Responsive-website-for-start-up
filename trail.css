@@ -1,0 +1,51 @@
+.owl-dot{
+	outline: none;
+	margin-bottom: 100px;
+}
+.container{
+	background-image:  url('../images/bg-testimonials.jpg');
+	width: 100%;
+	background-size: cover;
+		
+		
+}
+.client-member{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+blockquote{
+	border: none;
+	color: white;
+	font-size: 22px;
+	margin-bottom: 20px;
+	font-style: italic;
+	margin-top: 30px;
+}
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 100px;
+    line-height: 1;
+    top: 0px;
+    left: -20px;
+	margin-right: 20px;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 100px;
+    line-height: 1;
+    bottom: 0;
+    right: 0;
+    content: "\201D";
+}
+
+
+.client-member-name{
+	color: white;
+}
+.client-member-designation{
+      color: white;
+}

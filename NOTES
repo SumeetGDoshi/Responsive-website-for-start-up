@@ -1,0 +1,202 @@
+    HTML IS NOT AN CaSE SENSiTiVE LANGGUAGE..!!
+BUT BY DEFAULT SMALL LETTER ARE PREFFERED AS FILENAME IS CASE SENSITIVE IN LINUX.
+<DOCTYPE HTML> HERE HTML SPECIFIES WE ARE USING HTML 5.0. THERE ARE DIFFERENT EXTENSIONS FOR DIFFERENT HTML VERSIONS.
+EVERY PAGE SHOULD HAVE EXACTLY ONE HEADER AS IT MAY AFFECT SEO.
+UNLIKE JAVA HTML HAS ONLY INTERPRETER!!!SO WHATEVER SYNTAX WE WRITE NO ERRORS WILL BE DETECTED.!!!
+*THREE FACTORS IN WEB DESIGNING :
+SEMANTICS(MEANING):-THIS PROVIDES MEANING TO THE TEXT WHICH IS UNDERSTOOD BY THE BROWSER AND THE BROWSER GETS THAT THE TEXT EXPRESSED HERE ARE IMPORTANT{SEO WORKS ON THIS}.
+
+SEMANTICS TAGS:-
+    <strong>  TAG IS USED FOR PROVIDING SEMANTICS TO THE BROWSER THAT THE TEXT WIHTIN THIS TAG IS IMPORTANT.[USED FOR SEO/USED BY BLIND PEOPLE FOR             SCREEN READING] {EG.HIGH PITCH VOICE}.
+       <em>   TAG IS USED FRO PROVIDING SEMANTICS TO BROWSER REGARDING THE TEXT IN THAT AS ITS IMPORTANT.[AGAIN USED IN SEO/USED BY BLIND PEOPLE          FOR SCREEN READING] {EG.LOW PITCH VOICE}.
+//THE ABOVE TWO TAGS BOLDS AND ITALIC THE TEXTS FONTS WRITTEN WITHIN IT, THIS CAN ALSO BE DONE BY FONT CHANGING BY CSS BUT THERE IS MORE TO IT BY THIS TAGS THE {PROVIDE SEMANTICS TO THE TEXT} AS MENTIONED IN ABOVE EXAMPLES...!!!
+
+BLOCK LEVEL ELEMENT: HAS WIDTH AND HEIGHT. WHICH GIVES BREAK I.E AUTOBREAK...!!!
+
+INLINE ELEMENT: IT DOESNT BREAK ONLY SELECTED AMOUNT OF SPACE IS GIVEN IN THIS WHICH IS REQ BY THE CHARACTERS OR NUMBERS.......
+
+java removed applet from 1.8 version...!!!!
+th stands for table heading...
+-->##Semantics##:
+<thead> stand for table heading
+theading
+hfoot:text comes in footer
+
+to group radio buttons use "name" keyword ... so any one will be selected
+
+if want to print/ put// 
+
+
+<div> itself is block level element use to combine n give id to pragraph... they also do not provide meaning ....!!!
+<span> is used to collect something in inline and agian it has no meaning...!!!
+->emmet extension 
+->lorem ipsum
+->nav>(h1+ul)>li>a*3
+
+<SECTION> TAG IS USED TO PROVIDE AN SECTION TO THE TEXT AND DIFFERENTIATE FROM OTHERS IN TERMS OF SEMANTICS AND LOOK...!!!
+<FIGURE> IMAGES SHOULD BE INSERTED IN THE FIGURE TAG
+<FIGURECAPTION> IS USED TO PROVIDE CAPTION TO FIGURE......
+<ASIDE> TAGE IUS USE TO PUT ANY EXTRA TEXT EXAMPLE: SOME RELATED LINKS....!!!!!!!!!!
+<DIV CLASS NAME="">  TAG IS USED FOR GROUPING MANY A PARAGRAPHS TOGETHER... AS THERE MAY BE MULTIPLE PARAGRAPHS IN THE CODE AND EG: PROVIDING BACKGROUND COLOR TO THE WHOLE PAGE AND GATHERING EACH PARAGRAPHS CAN BE A TEDIOUS JOB SO TO SORT IT THIS TAG IS INVENTED SO THIS EASY'S THE WORK AND WE CAN CALL EACH PARAGRAPHS BY THE CLASS NAME
+<P ID="XYZ"> USED TP PROVIDE ID TO THE PARAGRAPH...###NOTE ID IS UNQIUE FOR EACH PARAGRAPH AND CANNOT BE REPEATED ....!!!!!!
+<P CLASS="ABC"> USED TO PROVIDE CLASS TO PARAGRAPH  ## NOTE CLASS CAN BE REPEATED ANY NUMBER OF TIMES!!!!!
+UI: USER INTERFACE IS USED TO DESIGN THE INTERFACE SUGGESTED ACCORIDNG UX.
+UX: USER EXPERIENCE IS HOW THE UI SHOULD BE DESIGNED EG:WHICH COLORS SHOULD BE USED . UI IS DESIGNED ACCORDING TO UX
+ALWAYS PUT <em>TAG IN <p>
+<div id> PUT id ONLY IF GONNA USE ONCE IN THE WHOLE PROGRAM...!!!
+ALWAYS HAVE THE HABIT TO PUT COMMENT AFTER THE DIV TAG , SINCE IT SIMPLIFY THE PROCESS OF UNDERSTANDING EVEN AFTER YEARS.!!!!!!!!!
+PROVIDE A CLASS TO ARTICLE AS WELL AS TO SECTION TAG.........!!!!!!!!!!!
+WHILE PRINTING THE DATE TO THE PAGE ALWAYS USE <time datetime="03/3/2017">may 8, 2016</time> PRIINT THIS WAY HERE THE datetime HELPS THE BROWSER TO UNDERSTAND THAT THE DATE AND TIME IS PROVIDED ,HENCE USED IN SEMANTICS {SEO} .....!!!!!!!!!
+
+ EXAMPLE: 
+    <!--url inputs-->
+    <label for="form-url">URL</label>
+    <input type="url" id="form-url">
+##HERE AS YOU CAN SEE ABOVE, THE label for="WHATEVER-NAME" SHOULD ALWAYS BE SAME AS THE ID YOU PROVIDE BELOW id="WHATEVER-NAME", THIS HELPS FOCUS ONTHE TEXTBOX EVEN WHEN YOU CLICK ON THE LABEL.........!!!!!!!!!!!!!
+<span class="author">by <strong>SUMEET DOSHI</strong></span> HEERE SPAN IS USED FOR PROVIDING A CLASS TO A PARTICULAR TEXT SO AS WHEN NEEDED TO MODIFY THE IMPORTANT TEXT WRIITTEN INSPAN WE CAN MODIFY ONLY THE TEXT IN IT . GENERALLY USED WHEN WORKING WITH CSS AND PROVIDING DIFFERENT FONTS TO THE TEXT WHICH SHOULD BE HIGHLIGHTED........!!!!!
+The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.......!!!!!!!!!
+sans serif do not have edges
+serif fonts have edges-times nw roman
+monospaces font  each character takes same spacing ussually used to displays code
+we usually use sans serif and sarif fonts.!!
+specificity.keegan.st
+background #f2f2f2
+font color 555
+use *{ padding: 0 and margin:0} for master reset 
+small quotes should be put in <q> tag
+full width is for block level elements(rfere stylesheet.css)
+border:solid 1px #000 <here 1px is the width>
+order of unvisited visited hover and active should remian same [lvha]
+clearfix:after [ismei bich mei space nai aaega]
+NOTE:pusedo elements mei space nai aata
+POSITIONING
+RELATIVE POSITIONING: ITS TAKES POSITION ACCORDING TO ITSELF LIKE ACC TO THE FLOW ,IT STAYS IN FLOW.......!!!!!!!!!!!!!.
+ABSOLUTE POSITIONING: IT POSITIONS ITSELF ACCORDING TO THE POSITION AND SIZE OF ITS PARENTS.
+FIXED POSITIONING: ITS POSITIONNS IS ACORDING TO THE WINDOW SIZE OF HTML.
+#img hover: h3{
+
+}
+text-indent:use to set the first line of the paragraph the placement....
+outline-color: is used to color outline when focus on it....
+cant give height in inline tag
+CSS3-it makes browser render more efficiently...........
+horizontal shadow 
+vertical shadow(y axis)
+jidhr color aaega udhr rgbs chalega
+shadow doesnt add up in the width
+spread 10 px ka spread hua so aur felaega
+box-shadow: 0 20 10 -15;
+idhr 0 x 
+20 y
+10 blur
+-15 spread
+vendor prefixes are the prefix used for columns styles eg: [-webkit- whatever here here webkit is for chrome -moz- is for mozilla]
+
+
+ANIMATION:
+animation-duration: from se to karega
+ease-in se start slow hoga 
+ease-in-out: star slow bich mei bhagega and end slow
+linear:same pace mei janeka 
+animation-delay:eg 2 sec tak default den animation strt hua
+animation-direction: alternative
+short hand version of above :
+animation: vrushali10s linear 2s 3 alternative;
+animations wont require any event
+transitions such as hover will require an event
+js mei objects banaya  toh ek dusre se agar same hoga toh if u change  property of one the other changes
+in function is treated as variable
+/g in r.e means to perform  a global match(find all the key that matches the pattern rather than stopping after the first match)
+/i in r.e means to do case insensitive matching......
+D stands for digits in 
+js is interpreted language
+                      jQUERY:
+beautify ctrl shift l(it is the reverse of minimize)
+couting in jquery for paragraphs strts from 0 when selecting even paragraphs
+div.contains selects the whole paragraphs which contains a particular word
+$ means jQuery
+->when you type a key 3 events{
+key down
+key typed
+key up
+eg:-aaaa
+there is difference of 20 millisecond between each keytyped}
+
+emmet for hide-show.html inJQUERY:-
+html>head>title{jQuery Hide/Show}+link*2^body>h1+p+div.hidden+h2{a level two heading}+div#box1{a box!}+hr+button{i'm a good old fashined button}+script*2
+
+/****reference animate jQuery i.e is in script.js******/
+->in js objects is denoted by{}
+syntax mei jabhi bhi[] brackets aaega toh vo optional part hogaya
+as its requesting object i have to pass object
+
+left: "-=40px" it means jidhr current position h udhr se -40px lega yeh jab css jQuery mei likhte h tab current postion se -40px lega.
+
+
+only jdk (1.8 and above) can have object in switch case
+switch(obj)
+{
+string("hello)
+}
+
+
+messi protocol in OS(cahce coherance)
+modified exclusive read invallid
+william stawlings(coa)
+
+
+java mei exception is object
+2 types of exception but mother of exception is: throwable
+its branches are:error & exception
+exception has one spcl type-run time exception is not shown to compiler i.e uncheck exception
+the exception tht is shown to compiler is knw a check exception.
+We can put number of static blocks 
+try throws the throwabble and catch catches the throwabble
+java is not interpreted
+static is knw as initializer
+objects which has no name is know as anon objects 
+A ob=new B()
+ob.show
+(b(ob)).showOfB() /*This is typecasting as showOfB() method does not exist in the parent class*/
+->As  a is the parent class it can refer to the child class
+->parent can typecast to child
+->ob ko b mei convert kiya wit typecast
+math.random()*8
+* aaega toh max value dalneka nad + aaega toh minimum dalneka 
+
+setTimeout(method(),value) | setTimeout(method,value) ismei methood ko() brackets daala toh on the spot call hoega so if delay chahiye toh brackets nai dalna
+
+table sudo element not condensed
+<a> use kiya boot strap mei toh "data-toggle" use krneka navigation bar mei
+
+niche right pe client ya author hota h usko citation bolte h
+
+row directly nai dalneka container mei dalneka
+ row shold be childof container
+ table ?
+ vertical align?
+ spacing zyda ho toh padding manage n also of background khichna hai 
+ 
+ meta tags update frequently so that seo update ho
+ seo vo nai dekhta ki phele kya keywords the.
+ 
+ <www.fontpair.io
+ serif/sans-serif:title serif mei body sans-serif mei>
+ 
+ HERO SLIDER image pe title ek button jo usi page pe link krta ho n uoar ek tranparent header n jab scroll krenge tab header dikhega
+ 
+ 
+ 
+ background-position of image hamesha center rakhneka by default wala left se aaega pura image ekdum top left se so center rkhneka
+ 
+ inline elements ko height and width nai de sakte
+ buttons witout bg is knw as ghost buttons
+ 
+ ALWAYS WRITE COMMMENTS while writing any programs
+ 
+ text aling: center kabhi block level elements nai lata middle mei
+ 
+ chrome extensions
+ wireframming5 helps check divs in live website
+ colorzilla to pick colors
+ 
